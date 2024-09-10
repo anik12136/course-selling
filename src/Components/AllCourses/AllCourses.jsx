@@ -12,7 +12,7 @@ const AllCourses = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('https://assignment-11-serve-site-kdls-4ci5nq6c3-anik12136s-projects.vercel.app/formCourses'); // Specify the path to your JSON file in the public folder
+                const response = await fetch('http://localhost:5000/formCourses'); // Specify the path to your JSON file in the public folder
                 if (!response.ok) {
                     throw new Error('Failed to fetch data');
                 }

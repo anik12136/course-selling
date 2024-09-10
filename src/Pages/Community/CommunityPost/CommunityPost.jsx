@@ -47,7 +47,7 @@ const CommunityPost = () => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          "https://assignment-11-serve-site-kdls-ms7xe0kt1-anik12136s-projects.vercel.app/communityPost"
+          "http://localhost:5000/communityPost"
         ); // Specify the path to your JSON file in the public folder
         if (!response.ok) {
           throw new Error("Failed to fetch data");

@@ -33,7 +33,7 @@ const UserProfile = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`https://assignment-11-serve-site-kdls-44zm0028t-anik12136s-projects.vercel.app/users/${user?.email}`); // Specify the path to your JSON file in the public folder
+        const response = await fetch(`http://localhost:5000/users/${user?.email}`); // Specify the path to your JSON file in the public folder
         if (!response.ok) {
           throw new Error('Failed to fetch data');
         }

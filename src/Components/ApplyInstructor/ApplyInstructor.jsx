@@ -19,7 +19,7 @@ const ApplyInstructor = () => {
     // const role = user.role;
     console.log("receive from click", userEmail)
     const role = 'instructor'; //did not work
-    fetch(`https://assignment-11-serve-site-kdls-44zm0028t-anik12136s-projects.vercel.app/users/${userEmail}`, {
+    fetch(`http://localhost:5000/users/${userEmail}`, {
         method: 'PUT',
         headers: {
           'content-type': 'application/json',

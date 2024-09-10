@@ -21,7 +21,7 @@ const AddTOCart = ({ course }) => {
         numberOfQuizzes: course.numberOfQuizzes
       }
 
-      fetch('https://assignment-11-serve-site-kdls-6ww02uv0l-anik12136s-projects.vercel.app/carts', {
+      fetch('http://localhost:5000/carts', {
         method: 'POST',
         headers: {
           'content-type': 'application/json'

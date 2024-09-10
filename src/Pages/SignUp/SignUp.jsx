@@ -48,7 +48,7 @@ const SignUp = () => {
             // send user data to database.................
             const insertUser = {name:name, email:email, role:role }
             console.log(insertUser);
-            fetch('https://assignment-11-serve-site-kdls-44zm0028t-anik12136s-projects.vercel.app/users', {
+            fetch('http://localhost:5000/users', {
                             method: 'POST',
                             headers: {
                                 'content-type': 'application/json'

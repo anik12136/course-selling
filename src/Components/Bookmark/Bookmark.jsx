@@ -25,7 +25,7 @@ const Bookmark = ({ course }) => {
         if (user && user.email) {
 
             fetch(
-                "https://assignment-11-serve-site-kdls-8ept06ln5-anik12136s-projects.vercel.app/bookmarks",
+                "http://localhost:5000/bookmarks",
                 {
                     method: "POST",
                     headers: {
