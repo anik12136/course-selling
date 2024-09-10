@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "postedBy":"Yamin Hossain",
+      "question": "post-1: What is React Context API?",
+      "questionDescription": "While your application might start out with just a single component, as it grows in complexity, you must continually break it up into smaller components. With components, we can isolate individual parts of a larger application, providing a separation of concern. If anything in your application breaks, you can easily identify where things went wrong using fault isolation. However, components are also meant to be reusable. You want to avoid duplicate logic and prevent over-abstraction. Reusing components comes with the benefits of DRY code; components usually have some data or functionality that another component needs, for example, to keep components in synchronization. In React, we can use props to make our components communicate"
+    },
+    {
+      "id": 2,
+      "question": "post-2: What is JavaFx?",
+      "postedBy":"Yamin Hossain",
+      "questionDescription": "While your application might start out with just a single component, as it grows in complexity, you must continually break it up into smaller components. With components, we can isolate individual parts of a larger application, providing a separation of concern. If anything in your application breaks, you can easily identify where things went wrong using fault isolation. However, components are also meant to be reusable. You want to avoid duplicate logic and prevent over-abstraction. Reusing components comes with the benefits of DRY code; components usually have some data or functionality that another component needs, for example, to keep components in synchronization. In React, we can use props to make our components communicate"
+    },
+    {
+      "id": 3,
+      "question": "post-3:How to Get started with Angular?",
+      "postedBy":"Yamin Hossain",
+      "questionDescription": "While your application might start out with just a single component, as it grows in complexity, you must continually break it up into smaller components. With components, we can isolate individual parts of a larger application, providing a separation of concern. If anything in your application breaks, you can easily identify where things went wrong using fault isolation. However, components are also meant to be reusable. You want to avoid duplicate logic and prevent over-abstraction. Reusing components comes with the benefits of DRY code; components usually have some data or functionality that another component needs, for example, to keep components in synchronization. In React, we can use props to make our components communicate"
+    },
+    {
+      "id": 4,
+      "question": "post-4: What is Vite and the connection between vite and react?",
+      "postedBy":"Yamin Hossain",
+      "questionDescription":"While your application might start out with just a single component, as it grows in complexity, you must continually break it up into smaller components. With components, we can isolate individual parts of a larger application, providing a separation of concern. If anything in your application breaks, you can easily identify where things went wrong using fault isolation. However, components are also meant to be reusable. You want to avoid duplicate logic and prevent over-abstraction. Reusing components comes with the benefits of DRY code; components usually have some data or functionality that another component needs, for example, to keep components in synchronization. In React, we can use props to make our components communicate"
+    },
+    {
+      "id": 5,
+      "question": " post-5: What is React Context API?",
+      "postedBy":"Yamin Hossain",
+      "questionDescription":"While your application might start out with just a single component, as it grows in complexity, you must continually break it up into smaller components. With components, we can isolate individual parts of a larger application, providing a separation of concern. If anything in your application breaks, you can easily identify where things went wrong using fault isolation. However, components are also meant to be reusable. You want to avoid duplicate logic and prevent over-abstraction. Reusing components comes with the benefits of DRY code; components usually have some data or functionality that another component needs, for example, to keep components in synchronization. In React, we can use props to make our components communicate"
+    }
+  ]
+  
