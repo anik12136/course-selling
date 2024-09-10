@@ -20,7 +20,7 @@ const CommunityPost = () => {
         /* ------------------------
           fetching data from public folder
           --------------------------------- */
-        const response = await fetch("https://assignment-11-serve-site-kdls-8ept06ln5-anik12136s-projects.vercel.app/communityPost");
+        const response = await fetch("http://localhost:5000/communityPost");
         if (!response.ok) {
           throw new Error("Failed to fetch data");
         }

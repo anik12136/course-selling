@@ -22,7 +22,7 @@ const Community = () => {
     setFormData(data);
     // send user data to database.................
     fetch(
-      "https://assignment-11-serve-site-kdls-44zm0028t-anik12136s-projects.vercel.app/communityPost",
+      "http://localhost:5000/communityPost",
       {
         method: "POST",
         headers: {
